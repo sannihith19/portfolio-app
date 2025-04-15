@@ -1,21 +1,51 @@
-//first we need to install the modules required to run the code
-open the project folder 
-open terminal ctrl+shift+`
-make sure you are in your project folder and click npm install
+# Portfolio & Profile App (React.js, Node.js, MongoDB)
 
-this will install all needed modules and creates node modules file
+A responsive full-stack portfolio application built using **React.js**, **Node.js**, and **MongoDB**, designed to showcase academic performance, creative artwork, JavaScript concepts, and personal profile.
 
-//run the application
+---
+
+## 📦 Tech Stack
+- **Frontend:** React.js, Material-UI
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (local or hosted)
+- **Other:** HTML/CSS, Git, VS Code
+
+---
+
+## 🚀 How to Run This Project
+
+This project has two parts: **Frontend (FE)** and **Backend (server)**. Follow these steps to install dependencies and start both parts locally.
+
+### 🔹 1. Frontend (FE)
+```bash
+cd FE
+npm install
 npm start
+```
+Runs on: `http://localhost:3000`
 
-this starts our app in localhost::3000
+---
 
+### 🔹 2. Backend (server)
+```bash
+cd server
+npm install
+npm start
+```
+Runs on: `http://localhost:8800`
 
-//in the application we have a side bar in which we have 3 sections
-1. profile 
-this part contains about me, my artwork, contact information
-2.async
-this is where we are calling the dummy data and displaying it in a table
-we also have clear button to clear and fetch button to get the data
-3.sync
-in this we are mocking synchronous implementation by using settimeout function 
+---
+
+## 📌 Features
+- 🧑 About Me section with academic profile and hobbies
+- 🎓 Academic scores fetched from MongoDB
+- 🔄 JavaScript sync vs async demonstration
+- 🖼️ Art Gallery with hover animations and responsive grid layout
+- 📬 Contact section with LinkedIn, GitHub, Instagram, and Email
+- 💅 Styled using Material-UI and CSS transitions
+
+---
+
+## 👨‍💻 Author
+**Baba Sri Sannihith Dharanikota**  
+[GitHub](https://github.com/sannihith19)
